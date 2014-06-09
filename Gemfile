@@ -60,3 +60,9 @@ end
 
 # Use Bootstrap-SASS
 gem 'bootstrap-sass', '~> 3.1.1'
+
+# Use Devise
+gem 'devise'
+
+# Use Figaro for sensitive data
+gem 'figaro'
