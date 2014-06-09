@@ -66,3 +66,6 @@ gem 'devise'
 
 # Use Figaro for sensitive data
 gem 'figaro'
+
+# Use Pundit
+gem 'pundit'
