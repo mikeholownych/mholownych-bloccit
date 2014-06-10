@@ -69,3 +69,6 @@ gem 'figaro'
 
 # Use Pundit
 gem 'pundit'
+
+gem 'redcarpet'
+
