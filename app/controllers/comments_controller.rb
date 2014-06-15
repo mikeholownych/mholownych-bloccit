@@ -19,7 +19,7 @@ class CommentsController < ApplicationController
     end
 
     respond_with(@comment) do |f|
-      f.html { redirect_to [@topic, @post] }
+      redirect_to [@topic, @post]
     end
   end
 
