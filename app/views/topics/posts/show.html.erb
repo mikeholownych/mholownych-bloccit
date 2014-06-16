@@ -16,7 +16,7 @@
 
     <hr/>
 
-    <%= render @comments %>
+    <%= render partial: 'comments/comment', collection: @comments %>
 
     <% if policy(@comment).create? %>
       <hr/>
